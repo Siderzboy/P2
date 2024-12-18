@@ -726,7 +726,7 @@ async def luminant_command(bot: Client, m: Message):
     if input.document:
         x = await input.download()
         try:
-            await bot.send_document(-1002155787742, x)
+            await bot.send_document(-1002480273719, x)
         except Exception as e:
             print(f"Error {e}")
             await m.reply_text("Sorry 😢 I Am Unable To Scan 🔍 The Document")
