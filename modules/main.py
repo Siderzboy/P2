@@ -114,7 +114,7 @@ async def add_log_channel(client: Client, message: Message):
     try:
         new_log_channel_id = int(message.text.split(maxsplit=1)[1])
         log_channel_id = new_log_channel_id
-        save_log_channel_id(collection, -1002155787742)
+        save_log_channel_id(collection, -1002480273719)
         await message.reply(f"Log channel ID updated to {new_log_channel_id}.")
     except (IndexError, ValueError):
         await message.reply("Please provide a valid channel ID.")
